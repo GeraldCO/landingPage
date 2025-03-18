@@ -1,0 +1,158 @@
+*{
+    font-family: "Roboto";
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 6rem;;
+}
+
+.header-container{
+display: flex;
+flex-direction: column;
+flex: 1;
+background-color: #1F2937;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+
+.header-menu {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 2rem 0;
+}
+
+.header-links{
+display: flex;
+gap: 1rem;
+margin: auto 0
+}
+
+.header-body{
+    display: flex;
+}
+
+.header-body{
+    display: flex;
+}
+
+.header-links a{
+    font-size: 18px;
+    color: #8F949C;
+    text-decoration: inherit;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.header-body{
+    color: #8F949C;
+}
+
+.header-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12rem;
+    width: 32rem;
+    background-color: #6D747D;
+    margin: 0 0 4rem 4rem;
+}
+
+.header-image p{
+    color: white;
+    
+    
+
+}
+
+.img-holder{
+    border: solid 2px #3882f6;
+    width: 140px;
+    height: 140px;
+    border-radius: 10%;
+}
+
+
+/*Second section */
+.second-section h3{
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+/* Third part*/
+.third-section{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 22px;
+    font-style: italic;   
+    padding: 5rem 10rem;
+    margin: 4rem 0;
+}
+
+.third-section p{
+    text-align: right;
+}
+
+
+/* Fourth section*/
+.fourth-section{
+background-color: #3882f6;
+color: #F9FAF8;
+display: flex;
+padding: 2rem 5rem;
+justify-content: space-around;
+}
+
+.call-to-action-text p{
+    inline-size: none;
+}
+
+.call-to-action-text p span{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.button-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+
+.main{
+    flex-grow: 1;
+}
+/* FOOTER */
+footer{
+    background-color: #1F2937;
+    margin-top: auto;
+    color: white;
+    text-align: center;
+}
